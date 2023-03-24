@@ -15,4 +15,6 @@ def print_info(name, surname, year_of_birth, address, email, telephone_number):
           f" email: {email}, телефон: {telephone_number}")
 
 
-print_info("Иван", "Иванов", "1846", "Москва", "jackie@gmail.com", "01005321456")
+print_info(name="Иван", surname="Иванов", year_of_birth="1846",
+           address="Москва", email="jackie@gmail.com", telephone_number="01005321456")
+
